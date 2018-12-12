@@ -1,0 +1,25 @@
+Exercice 1 :
+
+1)
+    1/ Affiche false et 10
+    2/ Affiche 28
+    3/ Affichera toujours "OK" car le boolean est défini dans la condition
+    4/ Erreur car boolean est null
+    5/ 12
+
+2) "iabde"
+
+3)
+    un premier texte
+    un deuxieme texte
+    un deuxieme texte texte a concatener en string
+    construction sbuffer texte a concatener en sbuffer
+    construction sbuffer 2
+    simple construction
+
+4)
+    1
+    1
+    1
+
+Exercice 2 :
