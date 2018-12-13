@@ -12,7 +12,7 @@ import java.util.OptionalDouble;
 public class Exo1 {
 
     public static String getPoints(String str) {
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\demir\\IdeaProjects\\test\\src\\Exo1\\data"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("data"))) {
             String line;
             String lines[];
             while ((line = reader.readLine()) != null) {
@@ -29,7 +29,7 @@ public class Exo1 {
     }
 
     public static void func1() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\demir\\IdeaProjects\\test\\src\\Exo1\\data"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("data"))) {
             String line;
             String lines[];
             ArrayList<Integer> array = new ArrayList<Integer>();
@@ -49,7 +49,7 @@ public class Exo1 {
     }
     public static void main(String[] args) throws FileNotFoundException {
         Instant start = Instant.now() ;
-        System.out.println(getPoints("demirel.sc@gmail.com"));
+        System.out.println(getPoints("test@test.com"));
         Duration duration = Duration.between(start, Instant.now());
         System.out.println(duration);
     }
