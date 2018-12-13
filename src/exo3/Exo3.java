@@ -5,7 +5,7 @@ package exo3;
 
 import java.io.FileNotFoundException;
 
-public class exo3 {
+public class Exo3 {
     public static void main(String[] args) {
         String[] array = {"2", "2", "bla"};
         try {

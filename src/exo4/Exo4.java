@@ -3,11 +3,10 @@
 
 package exo4;
 
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class exo4 {
+public class Exo4 {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter a string: ");
