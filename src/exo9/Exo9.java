@@ -1,6 +1,8 @@
 package exo9;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 
 public class Exo9 {
     public static void main(String[] args) {
@@ -26,5 +28,9 @@ public class Exo9 {
         for(int i = 0; i < avgs.length; i++) {
             System.out.println(avgs[i]);
         }
+
+        HashSet<Mark> h = new HashSet<Mark>();
+        h.add(n1);
+        System.out.println(h);
     }
 }

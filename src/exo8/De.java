@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class De {
     int value;
+    static Random random = new Random();
 
-    public int throwDe() {
-        Random random = new Random();
+    public int throwDe() { ;
         int value;
-        value = random.nextInt(6 - 1 + 1) + 1;
+        value = random.nextInt(6) + 1;
         setValue(value);
         return value;
     }
