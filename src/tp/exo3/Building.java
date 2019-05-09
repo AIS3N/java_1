@@ -46,4 +46,11 @@ public abstract class Building {
     public void setArea(double area) {
         this.area = area;
     }
+
+    public int compareTo(Building building) {
+        if (area <= building.area)
+            return 1;
+        return 0;
+    }
+
 }
